@@ -1,9 +1,3 @@
-# Jay J. Patel and Julian Ornelas
-# jpatel194@student.gsu.edu
-# jornelas2@student.gsu.edu
-# Section 008
-# 11/14/22
-
 from datetime import date
 
 def inch_to_cm(user_feet,user_inches):
@@ -63,9 +57,9 @@ if __name__ == '__main__':
     today_date = date.today()
 
     # What gets printed on the logging file.
-    underweight = f'{today_date}, {fullname} your BMI is {BMI:.2f}, you are in the underweight range'
-    overweight = f'{today_date}, {fullname} your BMI is {BMI:.2f}, you are in the overweight range'
-    normalweight = f'{today_date}, {fullname} your BMI is {BMI:.2f}, you are in the normal weight range'
+    underweight = f"{today_date}, {fullname} your BMI is {BMI:.2f}, you are in the underweight range"
+    overweight = f"{today_date}, {fullname} your BMI is {BMI:.2f}, you are in the overweight range"
+    normalweight = f"{today_date}, {fullname} your BMI is {BMI:.2f}, you are in the normal weight range"
 
     # According to user BMI, runs a if/else to add corresponding text onto log file.
     if BMI < 18.5:
