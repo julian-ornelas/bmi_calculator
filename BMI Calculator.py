@@ -18,7 +18,7 @@ def BMI_Conversion(user_weight,user_height):
 
 if __name__ == '__main__':
 
-    print("Jay and Julian's Body Mass Index Calculator\n")
+    print("Body Mass Index Calculator\n")
 
     # Requests and concatonates the name of the user.
     firstname = str(input("What is your first name?: "))
